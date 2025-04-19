@@ -1,3 +1,7 @@
+'''
+Brand Name Generator
+'''
+
 # Creating greeting for the program 
 print ("Welcome To The Brand Name Generators.")
 # Ask the user for the city they grew up in
