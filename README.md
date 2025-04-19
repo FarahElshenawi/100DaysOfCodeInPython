@@ -6,4 +6,4 @@ Embarking on a journey to master Python by building 100 unique projects over 100
 
 ### 🔰 Beginner
 - **Day 1**: [Working with Variables in Python to Manage Data](Day01)
-- **Day 2**: [Understanding Data Types and How to Manipulate Strings].(Day02)
+- **Day 2**: [Understanding Data Types and How to Manipulate Strings](Day02)
