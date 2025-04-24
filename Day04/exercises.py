@@ -34,20 +34,20 @@ print(f"{names[random_index]} is going to buy the meal today!")
 
 '''
 Write a program that will mark a spot on a map with an x. 
-    A   B   C
-  +---+---+---+
-1 |   |   |   |
-  +---+---+---+
-2 |   |   |   |
-  +---+---+---+
-3 |   |   |   |
-  +---+---+---+
-
+    A   B   C                         A   B   C
+  +---+---+---+                     +---+---+---+
+1 |   |   |   |                   1 |   |   |   |
+  +---+---+---+        C2           +---+---+---+
+2 |   |   |   |     ---------->   2 |   |   | X |
+  +---+---+---+                     +---+---+---+
+3 |   |   |   |                   3 |   |   |   |
+  +---+---+---+                     +---+---+---+
+ 
 '''
 line1= ["","",""]
 line2= ["","",""]
 line3= ["","",""]
-map= [line1, line2, line3]
+map= [line1, line2, line3] 
 
 print("Hiding your treasure! X marks the spot.")
 position= input("Where do you want to put the treasure? ")
@@ -63,5 +63,23 @@ else:
     j=2
 
 map[i][j]='X'
-print(map)
+print(f"{line1}\n{line2}\n{line3}")
+
+'''
+Another solution
+'''
+line1= ["","",""]
+line2= ["","",""]
+line3= ["","",""]
+map= [line1, line2, line3]
+
+print("Hiding your treasure! X marks the spot.")
+position= input("Where do you want to put the treasure? ")
+
+letter= position[0].lower()
+abc=['a','b','c']
+letter_index= abc.index(letter)
+number_index= int(position[1])-1
+map[number_index][letter_index]= 'X'
+
 print(f"{line1}\n{line2}\n{line3}")
