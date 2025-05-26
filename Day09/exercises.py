@@ -1,5 +1,5 @@
 '''
-write a program that converts their scores to grades.
+1- write a program that converts their scores to grades.
 By the end of the program you should have new dictionary called student_grades{name: grade}
 '''
 student_scores={
@@ -23,7 +23,7 @@ for key in student_scores:
 print(student_grades)
 
 '''
-write a program that adds to a travel_log.
+2- write a program that adds to a travel_log.
 '''
 travel_log=[
 {
@@ -38,14 +38,14 @@ travel_log=[
 }
 ]
 
-def add_new_country(country:str, visits:int, cities:list):
+def add_new_country(country_visited:str, time_visited:int, cities_visited:list):
     travel_log.append(
         {
-            "country": country,
-            "visits": visits,
-            "cities": cities
+            "country": country_visited,
+            "visits": time_visited,
+            "cities": cities_visited
         }
     )
-    print(travel_log)
 
 add_new_country("Russia", 2, ["Moscow", "Saint Petersbu"])
+print(travel_log)

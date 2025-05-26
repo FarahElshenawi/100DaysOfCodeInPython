@@ -14,7 +14,6 @@ def continu_or_not():
     elif yes_or_no == 'no':
         return False
         
-
 def blind_auction():
     bids={}
     continue_bid= True
