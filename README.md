@@ -15,6 +15,7 @@ Embarking on a journey to master Python by building 100 unique projects over 100
 - [**Day 8**](Day08): Function Parameters & Caesar Cipher  
 - [**Day 9**](Day09): Dictionaries, Nesting and the Secret Auction  
 - [**Day 10**](Day10): Functions with Outputs  
-- [**Day 11**](Day11): The Blackjack Capstone Project  
+- [**Day 11**](Day11): The Blackjack Capstone Project
+- [**Day 12**](Day12): Scope & Number Guessing Game
 
 
